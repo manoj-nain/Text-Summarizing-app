@@ -1,0 +1,8 @@
+numpy==1.19.2
+streamlit==0.69.2
+nltk
+bs4
+pandas
+requests
+scikit-learn
+networkx
