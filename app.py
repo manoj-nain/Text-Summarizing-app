@@ -38,8 +38,8 @@ def scraper(url):
 
     article_text = article_text.strip()
     return article_text
-!wget http://nlp.stanford.edu/data/glove.6B.zip
-!unzip glove*.zip
+# !wget http://nlp.stanford.edu/data/glove.6B.zip
+# !unzip glove*.zip
 
 #tokenize text
     
