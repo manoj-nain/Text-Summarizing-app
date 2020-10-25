@@ -5,7 +5,7 @@ Created on Sat Oct 24 16:36:32 2020
 
 @author: manoj
 """
-
+import nltk
 import streamlit as st
 import pandas as pd
 import numpy as np
