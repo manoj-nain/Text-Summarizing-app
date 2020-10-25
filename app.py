@@ -17,7 +17,7 @@ from nltk.corpus import stopwords
 from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
 from nltk.tokenize import sent_tokenize
-
+nltk.download('stopwords')
 st.title("Text Summarizer")
 st.markdown("This web application creates \
 summary of any blog from Medium.")
