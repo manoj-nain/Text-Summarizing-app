@@ -72,7 +72,7 @@ def remove_stopwords(sen):
 
 def wordvec(clean_sentences):
     word_embeddings = {}
-    f = open('glove.6B.100d.txt', encoding='utf-8')
+    f = open('https://drive.google.com/file/d/1wbt9-61gm9eBxayF-0bTyIx1s9L-k4TV/view?usp=sharing', encoding='utf-8')
     for line in f:
         values = line.split()
         word = values[0]
